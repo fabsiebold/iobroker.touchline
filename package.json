@@ -1,0 +1,41 @@
+{
+  "name": "iobroker.touchline",
+  "version": "0.0.1",
+  "description": "touchline",
+  "author": {
+    "name": "Fabian Siebold",
+    "email": "fabian.siebold@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Fabian Siebold",
+      "email": "fabian.siebold@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/ioBroker/ioBroker.touchline",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "touchline",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioBroker/ioBroker.touchline"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.touchline/issues"
+  },
+  "readmeFilename": "README.md"
+}
