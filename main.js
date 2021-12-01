@@ -570,11 +570,11 @@ function main() {
 // Average Load mit uptime auslesen
 function getData() 
 {
-	let timeout = adapter.config.pollingInterval * 2;
-	let readTouchlineData  = __dirname + "/exec/readTouchline.py -t " + adapter.config.ipAddress;
+    let timeout = adapter.config.pollingInterval * 2;
+    let readTouchlineData  = "python3 " + __dirname + "/exec/readTouchline.py -t " + adapter.config.ipAddress;
     
-	//adapter.log.info("Update values");
-	
+    adapter.log.info("Update values");
+
     exec(readTouchlineData, function(err, stdout, stderr) 
     {
         if (err) 
