@@ -188,7 +188,7 @@ def status():
       ## Add values to PrettyTable
       status.add_row([x,RaumName,RaumTemp,SollTemp,OPMode])
 #   print(status)
-   print json.dumps(jsonCompleteStr, indent=4, separators=(',', ': '))
+   print(json.dumps(jsonCompleteStr, indent=4, separators=(',', ': ')))
 
 
 if args.mode == "read":
