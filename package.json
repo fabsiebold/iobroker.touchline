@@ -1,41 +1,63 @@
 {
-  "name": "iobroker.touchline",
-  "version": "0.0.1",
-  "description": "touchline",
+  "_from": "github:fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+  "_id": "iobroker.touchline@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/iobroker.touchline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+    "rawSpec": "fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+    "saveSpec": "github:fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+    "fetchSpec": null,
+    "gitCommittish": "8840df127c8d81d942259c579f10aaeb86d66c23"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+  "_spec": "fabsiebold/iobroker.touchline#8840df127c8d81d942259c579f10aaeb86d66c23",
+  "_where": "/opt/iobroker",
   "author": {
     "name": "Fabian Siebold",
     "email": "fabian.siebold@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.touchline/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Fabian Siebold",
       "email": "fabian.siebold@gmail.com"
     }
   ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "touchline",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0"
+  },
   "homepage": "https://github.com/ioBroker/ioBroker.touchline",
-  "license": "MIT",
   "keywords": [
     "ioBroker",
     "touchline",
     "Smart Home",
     "home automation"
   ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "iobroker.touchline",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ioBroker/ioBroker.touchline"
+    "url": "git+https://github.com/ioBroker/ioBroker.touchline.git"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "gulp": "^3.9.1",
-    "mocha": "^4.1.0"
-  },
-  "main": "main.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --exit"
   },
-  "bugs": {
-    "url": "https://github.com/ioBroker/ioBroker.touchline/issues"
-  },
-  "readmeFilename": "README.md"
+  "version": "0.0.1"
 }
